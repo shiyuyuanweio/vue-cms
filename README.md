@@ -13,6 +13,10 @@
 2. git commit -m "提交信息"
 3. git push
 
+git remote add origin https://github.com/shiyuyuanweio/vue-cms.git
+git push -u origin master
+
+
 ## 制作首页App组件
 1. 完成 Header 区域，使用的是 Mint-UI 中的Header组件
 2. 制作底部的 Tabbar 区域，使用的是 MUI 的 Tabbar.html
