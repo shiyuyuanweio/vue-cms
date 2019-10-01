@@ -12,6 +12,9 @@ import router from './router.js'
 // 按需导入 Mint-UI 中的组件   
 import { Header} from 'mint-ui'
 Vue.component(Header.name, Header)
+import { Swipe, SwipeItem } from 'mint-ui'
+Vue.component(Swipe.name, Swipe)
+Vue.component(SwipeItem.name, SwipeItem)
 
 // 导入 MUI 的样式
 import './lib/mui/css/mui.min.css'
